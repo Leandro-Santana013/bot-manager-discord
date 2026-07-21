@@ -81,7 +81,10 @@ module.exports = {
         if (interaction.isUserSelectMenu()) {
             if (interaction.customId === 'menu_selecionar_usuario_cargo') {
                 
-                const STAFF_ROLES = [
+                // ==============================================================
+// 🔴 ALTERE AQUI: IDs dos cargos da Equipe/Staff (Admin/Mods)
+// ==============================================================
+const STAFF_ROLES = [
                     '1528880766979936399', 
                     '1496150278108479629', 
                     '1528910395656507392', 
@@ -117,7 +120,10 @@ module.exports = {
         if (interaction.isRoleSelectMenu()) {
             if (interaction.customId.startsWith('menu_selecionar_cargo_')) {
                 
-                const STAFF_ROLES = [
+                // ==============================================================
+// 🔴 ALTERE AQUI: IDs dos cargos da Equipe/Staff (Admin/Mods)
+// ==============================================================
+const STAFF_ROLES = [
                     '1528880766979936399', 
                     '1496150278108479629', 
                     '1528910395656507392', 

@@ -1,6 +1,9 @@
 const { SlashCommandBuilder } = require('discord.js');
 
 
+// ==============================================================
+// 🔴 ALTERE AQUI: IDs dos cargos da Equipe/Staff (Admin/Mods)
+// ==============================================================
 const STAFF_ROLES = [
     '1528880766979936399', 
     '1496150278108479629', 

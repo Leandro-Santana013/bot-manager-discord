@@ -2,6 +2,9 @@ const { ChannelType, PermissionFlagsBits, ActionRowBuilder, ButtonBuilder, Butto
 const TicketDatabase = require('./TicketDatabase.js');
 
 const CATEGORY_ID = '1528913685739733053';
+// ==============================================================
+// 🔴 ALTERE AQUI: IDs dos cargos da Equipe/Staff (Admin/Mods)
+// ==============================================================
 const STAFF_ROLES = [
     '1528880766979936399', 
     '1496150278108479629', 

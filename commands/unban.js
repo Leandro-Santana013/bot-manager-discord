@@ -12,12 +12,15 @@ module.exports = {
 
     async execute(interaction) {
         
-        if (interaction.member.roles.cache.has('1528884101212541150') && !interaction.member.permissions.has('Administrator')) {
+        if (interaction.member./* 🔴 ALTERE AQUI: ID DE CARGO ESPECÍFICO */ roles.cache.has('1528884101212541150') && !interaction.member.permissions.has('Administrator')) {
             return interaction.reply({ content: '❌ Membros com o cargo Castle Guardian não têm permissão para desbanir.', ephemeral: true });
         }
 
         
-        const STAFF_ROLES = [
+        // ==============================================================
+// 🔴 ALTERE AQUI: IDs dos cargos da Equipe/Staff (Admin/Mods)
+// ==============================================================
+const STAFF_ROLES = [
             '1528880766979936399', 
             '1496150278108479629', 
             '1528910395656507392', 
@@ -54,7 +57,10 @@ module.exports = {
         }
 
         
-        const STAFF_ROLES = [
+        // ==============================================================
+// 🔴 ALTERE AQUI: IDs dos cargos da Equipe/Staff (Admin/Mods)
+// ==============================================================
+const STAFF_ROLES = [
             '1528880766979936399', 
             '1496150278108479629', 
             '1528910395656507392', 
